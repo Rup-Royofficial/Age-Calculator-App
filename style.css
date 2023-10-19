@@ -1,0 +1,22 @@
+/* - White: hsl(0, 0%, 100%)
+- Off white: hsl(0, 0%, 94%)
+- Light grey: hsl(0, 0%, 86%)
+- Smokey grey: hsl(0, 1%, 44%)
+- Off black: hsl(0, 0%, 8%) */
+
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital@1&display=swap'); /* 400i */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap'); /* 700 */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,800&display=swap'); /* 800i */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+html,body {
+    height: 100%;
+    width: 100%;
+}
