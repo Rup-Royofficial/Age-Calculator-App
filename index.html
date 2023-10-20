@@ -16,6 +16,42 @@
   </style>
 </head>
 <body>
+  <div id="main">
+    <div id="container">
+      <div id="header-container">
+        <p class="calender-text">DAY</p>
+        <p class="calender-text">MONTH</p>
+        <p class="calender-text">YEAR</p>
+      </div>
+      <div id="input-container">
+        <div class="calender-input" contenteditable="true">DD</div>
+        <div class="calender-input" contenteditable="true">MM</div>
+        <div class="calender-input" contenteditable="true">YYYY</div>
+      </div>
+      <div id="display-container">
+        <div id="horizontal-linear-line"></div>
+        <button id="calculate-btn"><img src="./assets/images/icon-arrow.svg" alt="icon-arrow" ></button>
+        <div id="years-container">
+          <div class="flex-container">
+            <span id="hyphen-year">--</span>
+            <p>years</p>
+          </div>
+        </div>
+        <div id="months-container">
+          <div class="flex-container">
+            <span id="hyphen-month">--</span>
+            <p>months</p>
+          </div>
+        </div>
+        <div id="days-container">
+          <div class="flex-container">
+            <span id="hyphen-day">--</span>
+            <p>days</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 <!-- 
   Day
   DD
@@ -30,9 +66,9 @@
   -- months
   -- days -->
   
-  <div class="attribution">
+  <!-- <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
+    Coded by <a href="#">Your Name Here</a>. -->
   </div>
   <script src="script.js"></script>
 </body>
