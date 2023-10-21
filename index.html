@@ -24,9 +24,14 @@
         <p class="calender-text">YEAR</p>
       </div>
       <div id="input-container">
-        <div class="calender-input" contenteditable="true">DD</div>
-        <div class="calender-input" contenteditable="true">MM</div>
-        <div class="calender-input" contenteditable="true">YYYY</div>
+        <input class="calender-input" contenteditable="true" name="Day" placeholder="DD"></input>
+        <input class="calender-input" contenteditable="true" name="Month" placeholder="MM"></input>
+        <input class="calender-input" contenteditable="true" name="Year" placeholder="YYYY"></input>
+      </div>
+      <div id="error">
+        <span class="error-empty">This field is invalid</span>
+        <span class="error-empty">This field is invalid</span>
+        <span class="error-empty">This field is invalid</span>
       </div>
       <div id="display-container">
         <div id="horizontal-linear-line"></div>
